@@ -15,6 +15,8 @@ The **Stock Market Dashboard** is a web-based application that retrieves stock d
 
 ```plaintext
 📁 Stock Market Dashboard
+├── 📁 Images
+├── 📁 Report
 ├── app.py                # Main backend application file
 ├── dashboard.html        # HTML structure for the Dashboard page
 ├── analytics.html        # HTML structure for the Analytics page
