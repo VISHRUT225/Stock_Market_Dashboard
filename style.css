@@ -1,0 +1,309 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background: #81858a;
+    margin: 0;
+    padding-top: 70px; /* Offset for fixed navbar */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #007acc;
+    color: #ffffff;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.navbar a {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffdd57;
+}
+
+/* Main Container with Full Width */
+.container {
+    width: 90%; /* Expands to fill most of the screen */
+    max-width: 1400px; /* Increased max width for broad layout */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Heading */
+h1 {
+    font-size: 32px;
+    color: #444;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Stock Selector Buttons */
+.stock-buttons {
+    display: flex;
+    flex-wrap: wrap; /* Wrap buttons to new line if needed */
+    gap: 15px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.stock-buttons button {
+    background: #ff9900;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.stock-buttons button:hover {
+    background: #e68a00;
+    transform: scale(1.05);
+}
+
+/* Stock Information Boxes */
+.stock-info {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.info-box {
+    background: #ffffff;
+    padding: 20px;
+    flex: 1 1 180px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+/* Chart Area */
+.chart-container {
+    width: 100%;
+    height: 500px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Timeframe Buttons */
+#timeFrameButtons {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+#timeFrameButtons button {
+    padding: 10px 18px;
+    font-size: 14px;
+    color: #ffffff;
+    background: #007acc;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s, background 0.3s;
+}
+
+#timeFrameButtons button:hover {
+    background: #005bb5;
+    transform: scale(1.05);
+}
+
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background: #f8f9fa;
+    margin: 0;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #007acc;
+    color: #ffffff;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.navbar a {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffdd57;
+}
+
+/* Main Container with Full Width */
+.container {
+    width: 90%;
+    max-width: 1400px; /* Expands analytics page to full width */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Heading */
+h1, h2 {
+    color: #444;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* Stock Selector Buttons */
+.stock-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.stock-buttons button {
+    background: #ff9900;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.stock-buttons button:hover {
+    background: #e68a00;
+    transform: scale(1.05);
+}
+
+/* Chart Sections */
+.chart-section {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.chart-container {
+    width: 100%;
+    height: 500px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+/* Year Selector */
+#yearSelect {
+    padding: 5px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Additional Timeframe Buttons */
+#timeFrameButtons {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+#timeFrameButtons button {
+    padding: 10px 18px;
+    font-size: 14px;
+    color: #ffffff;
+    background: #007acc;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s, background 0.3s;
+}
+
+#timeFrameButtons button:hover {
+    background: #005bb5;
+    transform: scale(1.05);
+}
+
+
+/* Funky Blue-Themed Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(90deg, #004d99, #0066cc, #0099ff); /* Gradient background */
+    color: #ffffff;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+    z-index: 1000;
+    transition: background 0.3s; /* Smooth transition for background change */
+}
+
+.navbar a {
+    color: #ffffff; /* Link color */
+    font-size: 18px; /* Slightly larger font */
+    margin: 0 25px; /* Space between links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+    padding: 10px 20px; /* Padding around links */
+    border-radius: 30px; /* Rounded corners */
+    transition: background 0.4s, transform 0.3s; /* Smooth transition for hover effects */
+}
+
+.navbar a:hover {
+    background: #003366; /* Dark blue on hover */
+    transform: scale(1.1); /* Slightly enlarge link on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
